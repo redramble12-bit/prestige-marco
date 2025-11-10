@@ -69,31 +69,31 @@
         "html": "<h3> Our biggest sale is live </h3><p>Zomario is entering a new era of growth. As we expand into a larger atelier and partner with elite manufacturers, many of our current designs will soon be retired. This marks a rare opportunity to own our iconic pieces at 50% off.</p><p>Extra 10% OFF 2 | 20% OFF 3 | 30% OFF 4+ items</p><p>No code needed – discounts apply automatically in cart</p>"
       }
     },
-    "featured-collections": {
+    "featured_collections_CKeFTV": {
       "type": "featured-collections",
       "blocks": {
-        "featured-collection-0": {
+        "collection_BwUgAK": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "mens-shoes",
             "title": "",
             "grid_items_count": 4,
             "button_text": "View all"
           }
         },
-        "collection_pq6JT4": {
+        "collection_zzELRe": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "title": "",
+            "collection": "natural-linen",
+            "title": "Linen",
             "grid_items_count": 8,
             "button_text": "View all products"
           }
         }
       },
       "block_order": [
-        "featured-collection-0",
-        "collection_pq6JT4"
+        "collection_BwUgAK",
+        "collection_zzELRe"
       ],
       "settings": {
         "title": "",
@@ -121,19 +121,19 @@
         "link_url": "shopify://collections"
       }
     },
-    "featured_collections_CKeFTV": {
+    "featured-collections": {
       "type": "featured-collections",
       "blocks": {
-        "collection_BwUgAK": {
+        "featured-collection-0": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "title": "",
+            "collection": "luxury-knitwear",
+            "title": "Cashmere",
             "grid_items_count": 4,
             "button_text": "View all"
           }
         },
-        "collection_zzELRe": {
+        "collection_pq6JT4": {
           "type": "collection",
           "settings": {
             "collection": "",
@@ -144,8 +144,8 @@
         }
       },
       "block_order": [
-        "collection_BwUgAK",
-        "collection_zzELRe"
+        "featured-collection-0",
+        "collection_pq6JT4"
       ],
       "settings": {
         "title": "",
@@ -195,6 +195,17 @@
       "settings": {
         "title": "",
         "custom_html": ""
+      }
+    },
+    "blog_posts_JHaqjL": {
+      "type": "blog-posts",
+      "name": "Blog posts",
+      "settings": {
+        "subheading": "",
+        "title": "Blog posts",
+        "show_category": true,
+        "button_link": "",
+        "button_text": "View all articles"
       }
     },
     "recently_viewed_products_VfhUhH": {
@@ -339,12 +350,13 @@
   "order": [
     "slideshow",
     "custom_html_K4zdAh",
-    "featured-collections",
-    "text_with_image_7pGEf8",
     "featured_collections_CKeFTV",
+    "text_with_image_7pGEf8",
+    "featured-collections",
     "text_with_image_xTmMWt",
     "text_with_image_GDg3MG",
     "sp_custom_html_HmdPw6",
+    "blog_posts_JHaqjL",
     "recently_viewed_products_VfhUhH",
     "ss_instafeed_2_BbJTkd",
     "map_DyXEGh"
