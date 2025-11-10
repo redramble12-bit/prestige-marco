@@ -1,253 +1,154 @@
-{%- style -%}
-  .newsletter-{{ section.id }} {
-    background-color: {{ section.settings.color_background }};
-    color: {{ section.settings.color_text }};
+<section id="section-{{ section.id }}">
+  {%- capture mobile_size -%}750x{% if section.settings.image.height >= 960 %}960{% else %}{{ section.settings.image.height }}{% endif %}{%- endcapture -%}
+
+  <div class="FlexboxIeFix">
+    <div class="ImageHero {% if section.settings.section_size != 'normal' %}ImageHero--{{ section.settings.section_size }}{% endif %} ImageHero--newsletter" {% if section.settings.image %}style="background: url({{ section.settings.image | img_url: '1x1' }})"{% endif %}>
+      <div class="ImageHero__ImageWrapper">
+        <div class="ImageHero__Image Image--lazyLoad Image--zoomOut"
+             data-optimumx="1.4"
+             data-expand="-150"
+             {% if section.settings.image %}data-bgset="{{ section.settings.image | img_url: mobile_size, crop: 'center' }} 750w, {{ section.settings.image | img_url: '1000x' }} 1000w, {{ section.settings.image | img_url: '1500x' }} 1500w"{% endif %}>
+        </div>
+
+        <noscript>
+          <div class="ImageHero__Image" style="background-image: url({{ section.settings.image | img_url: '1000x' }})"></div>
+        </noscript>
+
+        {%- unless section.settings.image != blank -%}
+          <div class="PlaceholderBackground PlaceholderSvg--dark">
+            {{ 'lifestyle-1' | placeholder_svg_tag: 'PlaceholderBackground__Svg' }}
+          </div>
+        {%- endunless -%}
+      </div>
+
+      <div class="ImageHero__ContentOverlay">
+        <header class="SectionHeader SectionHeader--center">
+          {%- if section.settings.subheading != blank -%}
+            <h3 class="SectionHeader__SubHeading Heading u-h6">{{ section.settings.subheading | escape }}</h3>
+          {%- endif -%}
+
+          {%- if section.settings.title != blank -%}
+            <h2 class="SectionHeader__Heading Heading u-h1">{{ section.settings.title | escape }}</h2>
+          {%- endif -%}
+
+          {%- if section.settings.content != blank -%}
+            <div class="SectionHeader__Description">
+              {{ section.settings.content }}
+            </div>
+          {%- endif -%}
+        </header>
+
+        {%- assign newsletter_id = 'footer-' | append: section.id -%}
+
+        {%- form 'customer', id: newsletter_id, class: 'Newsletter Form' -%}
+          {%- if form.posted_successfully? -%}
+            <p class="Form__Alert Alert Alert--success">{{ 'home_page.newsletter.success' | t }}</p>
+          {%- else -%}
+            {%- if form.errors -%}
+              <p class="Form__Alert Alert Alert--error">{{ form.errors.messages['email'] }}</p>
+            {%- endif -%}
+
+            <div class="Newsletter__Inner">
+              <input type="hidden" name="contact[tags]" value="newsletter">
+              <input type="email" name="contact[email]" class="Form__Input" aria-label="{{ 'home_page.newsletter.input' | t }}" placeholder="{{ 'home_page.newsletter.input' | t }}" required>
+              <button type="submit" class="Form__Submit Button Button--primary">{{ 'home_page.newsletter.submit' | t }}</button>
+            </div>
+          {%- endif -%}
+        {%- endform -%}
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  #section-{{ section.id }},
+  #section-{{ section.id }} .Heading {
+    color: {{ section.settings.text_color }};
   }
 
-  .newsletter-{{ section.id }} .newsletter__input::-webkit-input-placeholder { color: {{ section.settings.color_text }}; }
-  .newsletter-{{ section.id }} .newsletter__input::-moz-placeholder { color: {{ section.settings.color_text }}; }
-  .newsletter-{{ section.id }} .newsletter__input::-ms-input-placeholder { color: {{ section.settings.color_text }}; }
-{%- endstyle -%}
+  #section-{{ section.id }} .Form__Submit {
+    border-color: {{ section.settings.text_color }};
+    color: {{ section.settings.button_color }};
+  }
 
-{% render 'newsletter-section', section: section %}
+  #section-{{ section.id }} .Form__Submit::before {
+    background-color: {{ section.settings.text_color }};
+  }
 
-{% schema %}
-  {
-    "name": "t:sections.newsletter.name",
-    "max_blocks": 6,
-    "blocks": [
-      {
-        "type": "@app"
-      },
-      {
-        "type": "title",
-        "name": "t:sections.newsletter.blocks.title.name",
-        "settings": [
-          {
-            "type": "text",
-            "id": "title",
-            "label": "t:sections.newsletter.blocks.title.settings.title.label",
-            "default": "Sign up and save"
-          },
-          {
-            "type": "select",
-            "id": "heading_size",
-            "label": "t:common.heading_size.label",
-            "default": "h2",
-            "options": [
-              {
-                "value": "h3",
-                "label": "t:common.heading_size.options.small.label"
-              },
-              {
-                "value": "h2",
-                "label": "t:common.heading_size.options.medium.label"
-              },
-              {
-                "value": "h1",
-                "label": "t:common.heading_size.options.large.label"
-              },
-              {
-                "value": "h0",
-                "label": "t:common.heading_size.options.extra_large.label"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "text",
-        "name": "t:sections.newsletter.blocks.text.name",
-        "settings": [
-          {
-            "type": "richtext",
-            "id": "text",
-            "label": "t:sections.newsletter.blocks.text.settings.text.label",
-            "default": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>"
-          }
-        ]
-      },
-      {
-        "type": "form",
-        "name": "t:sections.newsletter.blocks.form.name",
-        "limit": 1
-      },
-      {
-        "type": "share_buttons",
-        "name": "t:sections.newsletter.blocks.share_buttons.name",
-        "limit": 1
-      }
-    ],
-    "settings": [
-      {
-        "type": "paragraph",
-        "content": "t:sections.newsletter.settings.content"
-      },
-      {
-        "type": "select",
-        "id": "align_text",
-        "label": "t:sections.newsletter.settings.align_text.label",
-        "default": "center",
-        "options": [
-          {
-            "value": "left",
-            "label": "t:sections.newsletter.settings.align_text.options.left.label"
-          },
-          {
-            "value": "center",
-            "label": "t:sections.newsletter.settings.align_text.options.center.label"
-          },
-          {
-            "value": "right",
-            "label": "t:sections.newsletter.settings.align_text.options.right.label"
-          }
-        ]
-      },
-      {
-        "type": "header",
-        "content": "t:sections.newsletter.settings.image.label"
-      },
-      {
-        "type": "image_picker",
-        "id": "image",
-        "label": "t:sections.newsletter.settings.image.label",
-        "info": "t:sections.newsletter.settings.image.info"
-      },
-      {
-        "type": "select",
-        "id": "image_width",
-        "label": "t:common.image_size.label",
-        "default": "33",
-        "options": [
-          {
-            "value": "33",
-            "label": "t:common.image_size.options.small.label"
-          },
-          {
-            "value": "50",
-            "label": "t:common.image_size.options.medium.label"
-          },
-          {
-            "value": "66",
-            "label": "t:common.image_size.options.large.label"
-          }
-        ]
-      },
-      {
-        "type": "select",
-        "id": "image_mask",
-        "label": "t:common.image_mask.label",
-        "default": "none",
-        "options": [
-          {
-            "value": "none",
-            "label": "t:common.image_mask.options.none.label"
-          },
-          {
-            "value": "portrait",
-            "label": "t:common.image_mask.options.portrait.label"
-          },
-          {
-            "value": "landscape",
-            "label": "t:common.image_mask.options.landscape.label"
-          },
-          {
-            "value": "square",
-            "label": "t:common.image_mask.options.square.label"
-          },
-          {
-            "value": "rounded",
-            "label": "t:common.image_mask.options.rounded.label"
-          },
-          {
-            "value": "rounded-wave",
-            "label": "t:common.image_mask.options.rounded-wave.label"
-          },
-          {
-            "value": "rounded-top",
-            "label": "t:common.image_mask.options.rounded-top.label"
-          },
-          {
-            "value": "star",
-            "label": "t:common.image_mask.options.star.label"
-          },
-          {
-            "value": "splat-1",
-            "label": "t:common.image_mask.options.splat-1.label"
-          },
-          {
-            "value": "splat-2",
-            "label": "t:common.image_mask.options.splat-2.label"
-          },
-          {
-            "value": "splat-3",
-            "label": "t:common.image_mask.options.splat-3.label"
-          },
-          {
-            "value": "splat-4",
-            "label": "t:common.image_mask.options.splat-4.label"
-          }
-        ]
-      },
-      {
-        "type": "select",
-        "id": "image_position",
-        "label": "t:sections.newsletter.settings.image_position.label",
-        "default": "right",
-        "options": [
-          {
-            "value": "left",
-            "label": "t:sections.newsletter.settings.image_position.options.left.label"
-          },
-          {
-            "value": "right",
-            "label": "t:sections.newsletter.settings.image_position.options.right.label"
-          }
-        ]
-      },
-      {
-        "type": "color",
-        "id": "color_background",
-        "label": "t:sections.newsletter.settings.color_background.label",
-        "default": "#f9f9f9"
-      },
-      {
-        "type": "color",
-        "id": "color_text",
-        "label": "t:sections.newsletter.settings.color_text.label",
-        "default": "#1c1d1d"
-      },
-      {
-        "type": "checkbox",
-        "id": "top_padding",
-        "label": "t:sections.newsletter.settings.top_padding.label",
-        "default": true
-      },
-      {
-        "type": "checkbox",
-        "id": "bottom_padding",
-        "label": "t:sections.newsletter.settings.bottom_padding.label",
-        "default": true
-      }
-    ],
-    "presets": [
-      {
-        "name": "t:sections.newsletter.presets.email_signup.name",
-        "blocks": [
-          {
-            "type": "title"
-          },
-          {
-            "type": "text"
-          },
-          {
-            "type": "form"
-          }
-        ]
-      }
-    ],
-    "disabled_on": {
-      "groups": ["custom.popups"]
+  @media (-moz-touch-enabled: 0), (hover: hover) {
+    #section-{{ section.id }} .Form__Submit:hover {
+      color: {{ section.settings.text_color }};
     }
   }
+</style>
+
+{% schema %}
+{
+  "name": "Newsletter",
+  "settings": [
+    {
+      "type": "select",
+      "id": "section_size",
+      "label": "Section size",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "normal",
+          "label": "Normal"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "small"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "1500 x 800px .jpg recommended"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_color",
+      "label": "Button text",
+      "default": "#000000"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Sub-heading",
+      "default": "Keep updated"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Newsletter"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Text",
+      "default": "<p>A short sentence describing what someone will receive by subscribing</p>"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Promotional",
+      "name": "Newsletter",
+      "settings": {}
+    }
+  ]
+}
 {% endschema %}
