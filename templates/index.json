@@ -279,7 +279,7 @@
         "slider_row": "3",
         "slider_row_mobile": "3",
         "slider_gap": 8,
-        "slider_gap_mobile": 32,
+        "slider_gap_mobile": 8,
         "autoplay": false,
         "autoplay_speed": 3,
         "nav_size": 40,
