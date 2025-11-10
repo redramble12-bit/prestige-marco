@@ -82,7 +82,7 @@
         "settings": {
           "use_sticky_header": true,
           "logo": "shopify://shop_images/1_aae141db-c2ad-4948-87fb-3a516eee645d.png",
-          "logo_max_width": 70,
+          "logo_max_width": 230,
           "mobile_logo_max_width": 70,
           "show_country_selector": true,
           "show_locale_selector": true,
