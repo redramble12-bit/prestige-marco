@@ -15,7 +15,7 @@
     "link_color": "#000000",
     "background": "#ffffff",
     "light_background": "#ffffff",
-    "product_on_sale_color": "#08ae00",
+    "product_on_sale_color": "#d62929",
     "button_background": "#1c1b1b",
     "button_text_color": "#ffffff",
     "header_background": "#ffffff",
@@ -146,7 +146,19 @@
         }
       }
     },
-    "content_for_index": []
+    "content_for_index": [],
+    "blocks": {
+      "17920835415960095625": {
+        "type": "shopify://apps/swatch-king/blocks/variant-swatch-king/0850b1e4-ba30-4a0d-a8f4-f9a939276d7d",
+        "disabled": false,
+        "settings": {
+          "alignment": "left",
+          "swatch_location": "After image",
+          "switch_on_hover": true,
+          "preselect_variant": false
+        }
+      }
+    }
   },
   "presets": {
     "Allure": {
