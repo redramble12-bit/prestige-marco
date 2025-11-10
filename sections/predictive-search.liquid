@@ -1,56 +1,68 @@
-<div class="Segment">
-  <div class="Segment__Title Segment__Title--flexed">
-    {%- if search.types contains 'product' -%}
-      <span class="Heading Text--subdued u-h7">{{ 'search.general.results_count' | t: count: search.results_count }}</span>
-    {%- else -%}
-      {%- if search.types contains 'article' and search.types contains 'page' -%}
-        <span class="Heading Text--subdued u-h7">{{ 'search.general.pages_and_articles' | t }}</span>
-        {%- elsif search.types contains 'article' -%}
-        <span class="Heading Text--subdued u-h7">{{ 'search.general.articles' | t }}</span>
-      {%- else -%}
-        <span class="Heading Text--subdued u-h7">{{ 'search.general.pages' | t }}</span>
-      {%- endif -%}
-    {%- endif -%}
+{%- if predictive_search.performed -%}
+  {%- if predictive_search.resources.products.size > 0 -%}
+    <div data-type-products>
+      {%- for product in predictive_search.resources.products -%}
+        {%- render 'product-grid-item',
+          product: product,
+          per_row: 4,
+          quick_shop_enable: settings.quick_shop_enable
+        -%}
+      {%- endfor -%}
+    </div>
+  {% endif %}
 
-    {%- if search.results_count > 0 -%}
-      <a class="Heading Link Link--secondary u-h7" href="{{ routes.search_url }}?q={{ search.terms }}&type={{ search.types | join: ',' }}">{{ 'search.general.view_all' | t }}</a>
-    {%- endif -%}
-  </div>
+  {%- if predictive_search.resources.collections.size > 0 -%}
+    <div data-type-collections>
+      <p class="h6 predictive__label">{{ 'general.search.collections' | t }}</p>
+      <ul class="no-bullets">
+        {% for collection in predictive_search.resources.collections %}
+          <li>
+            <a href="{{ collection.url }}">
+              {{ collection.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
 
-  <div class="Segment__Content">
-    {%- if search.results_count == 0 -%}
-      <p>{{ 'search.general.no_results' | t }}</p>
-    {%- else -%}
-      {%- if search.types contains 'product' -%}
-        {%- if settings.search_mode == 'product' -%}
-          {%- assign results_count = 4 -%}
-        {%- else -%}
-          {%- assign results_count = 3 -%}
-        {%- endif -%}
+  {%- if predictive_search.resources.pages.size > 0 -%}
+    <div data-type-pages>
+      <p class="h6 predictive__label">{{ 'general.search.pages' | t }}</p>
+      <ul class="no-bullets">
+        {%- for page in predictive_search.resources.pages -%}
+          <li>
+            <a href="{{ page.url }}">
+              {{ page.title }}
+            </a>
+          </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+  {% endif %}
 
-        <div class="Grid Grid--xl">
-          {%- for result in search.results limit: results_count -%}
-            {%- comment -%}The inline onclick is a bit hacky, but it's easier on mobile to have the full line clickable{%- endcomment -%}
-            <div class="Grid__Cell 1/{{ results_count }}--tablet-and-up" onclick="window.location.href = '{{ result.url }}'">
-              {%- render 'product-item', product: result, show_labels: false, show_product_info: true, show_vendor: false -%}
+  {%- if predictive_search.resources.articles.size > 0 -%}
+    <div data-type-articles="{{ predictive_search.resources.articles.size }}">
+      <p class="h6 predictive__label">{{ 'general.search.articles' | t }}</p>
+      {%- for article in predictive_search.resources.articles -%}
+        <div class="grid__item grid-product small--one-half medium-up--one-quarter" data-aos="row-of-4">
+          <a href="{{ article.url }}" class="grid-product__link grid-product__link--inline">
+            <div class="image-wrap">
+              <div
+                class="grid__image-ratio grid__image-ratio--square">
+                {%- render 'image-element',
+                  img: article.image,
+                  widths: '360, 540, 720, 900, 1080',
+                  sizes: '80px',
+                -%}
+              </div>
             </div>
-          {%- endfor -%}
+            <div class="grid-product__meta">
+              {{ article.title }}
+            </div>
+          </a>
         </div>
-      {%- else -%}
-        <ul class="Linklist">
-          {%- for result in search.results limit: 6 -%}
-            <li class="Linklist__Item">
-              <a href="{{ result.url }}" class="Link Link--secondary">{{ result.title }}</a>
-            </li>
-          {%- endfor -%}
-        </ul>
-      {%- endif -%}
-    {%- endif -%}
-  </div>
-</div>
-
-{% schema %}
-{
-  "name": "Predictive search"
-}
-{% endschema %}
+      {%- endfor -%}
+    </div>
+  {% endif %}
+{%- endif -%}
