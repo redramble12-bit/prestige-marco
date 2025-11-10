@@ -1,1 +1,342 @@
-{"sections":{"slideshow":{"type":"slideshow","blocks":{"slide-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/VSVAEVAC.webp","apply_overlay":true,"content_position":"bottomCenter","subheading":"50% OFF + TIERED DISCOUNTS","title":"WAREHOUSE SALE","button_1_text":"Shop now","button_1_link":"shopify:\/\/collections\/summer-25-men","button_2_text":"","button_2_link":""}},"slide-1":{"type":"image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/A_man_and_woman_standing_in_the_mountains_dressed_20250313143717_720x_a744adc9-1113-491d-829e-deb8b6e981ef.webp","apply_overlay":true,"content_position":"bottomLeft","subheading":"Slide title","title":"Tell your story","button_1_text":"","button_1_link":"","button_2_text":"","button_2_link":""}}},"block_order":["slide-0","slide-1"],"settings":{"show_fullscreen":false,"show_arrow":false,"autoplay":true,"cycle_speed":5,"text_color":"#ffffff","button_color":"#363636","button_background":"#ffffff"}},"custom_html_K4zdAh":{"type":"custom-html","custom_css":["{background-color: #eeeeee !important;}"],"name":"Custom HTML","settings":{"subheading":"","title":"","html":"<h3> Our biggest sale is live <\/h3><p>Zomario is entering a new era of growth. As we expand into a larger atelier and partner with elite manufacturers, many of our current designs will soon be retired. This marks a rare opportunity to own our iconic pieces at 50% off.<\/p><p>Extra 10% OFF 2 | 20% OFF 3 | 30% OFF 4+ items<\/p><p>No code needed – discounts apply automatically in cart<\/p>"}},"featured-collections":{"type":"featured-collections","blocks":{"featured-collection-0":{"type":"collection","settings":{"collection":"","title":"","grid_items_count":4,"button_text":"View all"}},"collection_pq6JT4":{"type":"collection","settings":{"collection":"","title":"","grid_items_count":8,"button_text":"View all products"}}},"block_order":["featured-collection-0","collection_pq6JT4"],"settings":{"title":"","layout_mode":"grid","show_product_info":true,"show_vendor":false,"show_color_swatch":false,"grid_mobile_items_per_row":"2","grid_desktop_items_per_row":4}},"text_with_image_7pGEf8":{"type":"text-with-image","custom_css":["{background-color: #eeeeee !important;}"],"name":"Rich text with image","settings":{"subheading":"TRULY ICONIC","title":"MARINA LOAFERS","image":"shopify:\/\/shop_images\/CAWCWQC.webp","image_position":"left","content":"<p>The Marina Loafer is crafted for laid-back refinement — blending timeless form with soft, barefoot-level comfort. Unlined Sheep Suede molds to the foot with ease, while flexible rubber soles, inspired by classic deck shoes, offer grip and freedom in every step. Light, breathable, and quietly confident.<\/p>","link_text":"SHOP NOW","link_url":"shopify:\/\/collections"}},"featured_collections_CKeFTV":{"type":"featured-collections","blocks":{"collection_BwUgAK":{"type":"collection","settings":{"collection":"","title":"","grid_items_count":4,"button_text":"View all"}},"collection_zzELRe":{"type":"collection","settings":{"collection":"","title":"","grid_items_count":8,"button_text":"View all products"}}},"block_order":["collection_BwUgAK","collection_zzELRe"],"settings":{"title":"","layout_mode":"grid","show_product_info":true,"show_vendor":false,"show_color_swatch":false,"grid_mobile_items_per_row":"2","grid_desktop_items_per_row":4}},"text_with_image_xTmMWt":{"type":"text-with-image","custom_css":["{background-color: #rgb(250 250 250) !important;}"],"name":"Rich text with image","settings":{"subheading":"MINIMAL & TIMELESS","title":"THE ESSENTIAL SNEAKER","image":"shopify:\/\/shop_images\/QWECEWQ.webp","image_position":"right","content":"<p>Versatile and sophisticated, it’s the modern man’s indispensable sneaker—for leisure time look or more formal occasions.<\/p>","link_text":"SHOP NOW","link_url":"shopify:\/\/collections\/mens-shoes"}},"text_with_image_GDg3MG":{"type":"text-with-image","custom_css":["{background-color: #eeee !important;}"],"name":"Rich text with image","settings":{"subheading":"COMING SOON","title":"VETTIRO - EAU DE PARFUM","image":"shopify:\/\/shop_images\/Zomario_f5fdcafe-665f-48c1-b491-7fe0065cff8e.png","image_position":"left","content":"<p>Fresh notes of Italian bergamot and fig leaf drift into a heart of vetiver and neroli wood. Grounded by cedar, oakmoss, tonka, and soft white musk. Housed in a dark mocha glass bottle. Defined by quiet elegance.<\/p><p>Available soon. Exclusively at Zomario.<\/p>","link_text":"","link_url":""}},"blog_posts_6R6Aw7":{"type":"blog-posts","blocks":{"blog_B3j4hN":{"type":"blog","settings":{"blog":"nieuws"}}},"block_order":["blog_B3j4hN"],"name":"Blog posts","settings":{"subheading":"","title":"The Zomario Standard","show_category":false,"button_link":"","button_text":"View all articles"}},"shop-the-look":{"type":"shop-the-look","blocks":{"look-0":{"type":"look","settings":{"image":"shopify:\/\/shop_images\/6_7c9da30a-05ee-4e67-a386-f83edb6ab6c6.jpg","dot_style":"light","product_1":"mens-knitted-loose-solid-zipper-striped-knitted-sweater","product_1_horizontal_position":53,"product_1_vertical_position":32,"product_2":"old-money-cotton-linen-blend-drawstring-pants","product_2_horizontal_position":41,"product_2_vertical_position":64,"product_3":"old-money-classic-mens-clean-suede-loafers","product_3_horizontal_position":57,"product_3_vertical_position":90}},"look-1":{"type":"look","settings":{"dot_style":"light","product_1":"","product_1_horizontal_position":25,"product_1_vertical_position":45,"product_2":"","product_2_horizontal_position":55,"product_2_vertical_position":30,"product_3":"","product_3_horizontal_position":65,"product_3_vertical_position":60}}},"block_order":["look-0","look-1"],"settings":{"subheading":"Shop","title":"Our looks","show_mobile_product_info":false}},"custom_liquid_TM8XYG":{"type":"custom-liquid","name":"Custom Liquid","settings":{"subheading":"Sub-heading","title":"Your Liquid","liquid":"<p>Write your own custom Liquid content.<\/p>"}},"map_DyXEGh":{"type":"map","name":"Map","settings":{"title":"Visit our store","address":"<p>Canberra, Australia<\/p>","hours":"<p>Mon - Fri, 10am - 9pm<br\/>Saturday, 11am - 9pm<br\/>Sunday, 11am - 5pm<\/p>","map_address":"Canberra, Australia","map_link_label":"Get directions","api_key":"","zoom":14,"map_style":"silver","image":"shopify:\/\/shop_images\/0QmUMHCSScqx6fz-b1EN3A.webp"}}},"order":["slideshow","custom_html_K4zdAh","featured-collections","text_with_image_7pGEf8","featured_collections_CKeFTV","text_with_image_xTmMWt","text_with_image_GDg3MG","blog_posts_6R6Aw7","shop-the-look","custom_liquid_TM8XYG","map_DyXEGh"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/VSVAEVAC.webp",
+            "apply_overlay": true,
+            "content_position": "bottomCenter",
+            "subheading": "50% OFF + TIERED DISCOUNTS",
+            "title": "WAREHOUSE SALE",
+            "button_1_text": "Shop now",
+            "button_1_link": "shopify://collections/summer-25-men",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "slide-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/A_man_and_woman_standing_in_the_mountains_dressed_20250313143717_720x_a744adc9-1113-491d-829e-deb8b6e981ef.webp",
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "Slide title",
+            "title": "Tell your story",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide-0",
+        "slide-1"
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#363636",
+        "button_background": "#ffffff"
+      }
+    },
+    "custom_html_K4zdAh": {
+      "type": "custom-html",
+      "custom_css": [
+        "{background-color: #eeeeee !important;}"
+      ],
+      "name": "Custom HTML",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<h3> Our biggest sale is live </h3><p>Zomario is entering a new era of growth. As we expand into a larger atelier and partner with elite manufacturers, many of our current designs will soon be retired. This marks a rare opportunity to own our iconic pieces at 50% off.</p><p>Extra 10% OFF 2 | 20% OFF 3 | 30% OFF 4+ items</p><p>No code needed – discounts apply automatically in cart</p>"
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "featured-collection-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "grid_items_count": 4,
+            "button_text": "View all"
+          }
+        },
+        "collection_pq6JT4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "grid_items_count": 8,
+            "button_text": "View all products"
+          }
+        }
+      },
+      "block_order": [
+        "featured-collection-0",
+        "collection_pq6JT4"
+      ],
+      "settings": {
+        "title": "",
+        "layout_mode": "grid",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4
+      }
+    },
+    "text_with_image_7pGEf8": {
+      "type": "text-with-image",
+      "custom_css": [
+        "{background-color: #eeeeee !important;}"
+      ],
+      "name": "Rich text with image",
+      "settings": {
+        "subheading": "TRULY ICONIC",
+        "title": "MARINA LOAFERS",
+        "image": "shopify://shop_images/CAWCWQC.webp",
+        "image_position": "left",
+        "content": "<p>The Marina Loafer is crafted for laid-back refinement — blending timeless form with soft, barefoot-level comfort. Unlined Sheep Suede molds to the foot with ease, while flexible rubber soles, inspired by classic deck shoes, offer grip and freedom in every step. Light, breathable, and quietly confident.</p>",
+        "link_text": "SHOP NOW",
+        "link_url": "shopify://collections"
+      }
+    },
+    "featured_collections_CKeFTV": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_BwUgAK": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "grid_items_count": 4,
+            "button_text": "View all"
+          }
+        },
+        "collection_zzELRe": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "grid_items_count": 8,
+            "button_text": "View all products"
+          }
+        }
+      },
+      "block_order": [
+        "collection_BwUgAK",
+        "collection_zzELRe"
+      ],
+      "settings": {
+        "title": "",
+        "layout_mode": "grid",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4
+      }
+    },
+    "text_with_image_xTmMWt": {
+      "type": "text-with-image",
+      "custom_css": [
+        "{background-color: #rgb(250 250 250) !important;}"
+      ],
+      "name": "Rich text with image",
+      "settings": {
+        "subheading": "MINIMAL & TIMELESS",
+        "title": "THE ESSENTIAL SNEAKER",
+        "image": "shopify://shop_images/QWECEWQ.webp",
+        "image_position": "right",
+        "content": "<p>Versatile and sophisticated, it’s the modern man’s indispensable sneaker—for leisure time look or more formal occasions.</p>",
+        "link_text": "SHOP NOW",
+        "link_url": "shopify://collections/mens-shoes"
+      }
+    },
+    "text_with_image_GDg3MG": {
+      "type": "text-with-image",
+      "custom_css": [
+        "{background-color: #eeee !important;}"
+      ],
+      "name": "Rich text with image",
+      "settings": {
+        "subheading": "COMING SOON",
+        "title": "VETTIRO - EAU DE PARFUM",
+        "image": "shopify://shop_images/Zomario_f5fdcafe-665f-48c1-b491-7fe0065cff8e.png",
+        "image_position": "left",
+        "content": "<p>Fresh notes of Italian bergamot and fig leaf drift into a heart of vetiver and neroli wood. Grounded by cedar, oakmoss, tonka, and soft white musk. Housed in a dark mocha glass bottle. Defined by quiet elegance.</p><p>Available soon. Exclusively at Zomario.</p>",
+        "link_text": "",
+        "link_url": ""
+      }
+    },
+    "recently_viewed_products_VfhUhH": {
+      "type": "recently-viewed-products",
+      "name": "Recently viewed products",
+      "settings": {
+        "title": "Recently viewed",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    },
+    "ss_instafeed_2_BbJTkd": {
+      "type": "ss-instafeed-2",
+      "blocks": {
+        "slide_VX9EBe": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/e188364f73d6e0331bf66144b6e108ae.webp",
+            "url": ""
+          }
+        },
+        "slide_bJag9B": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/b9d5ef2dd4d7988d37d34d2396111653.jpg",
+            "url": ""
+          }
+        },
+        "slide_kABYae": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fca1aff2b2b9b820939c344d22ee8fa4.webp",
+            "url": ""
+          }
+        },
+        "slide_UNb4nh": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ICONS_FOR_WEBSITE_34_dcdfc569-0632-408a-9375-dd3a5cccbc2f.webp",
+            "url": ""
+          }
+        },
+        "slide_6irpRg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/66d209e7f9da77a4a0ff0f8f77d84680.webp",
+            "url": ""
+          }
+        },
+        "slide_Jj9fYW": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/87b23458bb0245beec87ad8d0cbf70be.webp",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_VX9EBe",
+        "slide_bJag9B",
+        "slide_kABYae",
+        "slide_UNb4nh",
+        "slide_6irpRg",
+        "slide_Jj9fYW"
+      ],
+      "name": "SS - Instafeed #2",
+      "settings": {
+        "top": "",
+        "top_custom": false,
+        "top_font": "josefin_sans_n4",
+        "top_size": 13,
+        "top_height": 130,
+        "top_align": "center",
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 40,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_mt": 12,
+        "subheading": "<h3>Tag us to get featured</h3>",
+        "subheading_custom": false,
+        "subheading_font": "josefin_sans_n4",
+        "subheading_size": 16,
+        "subheading_height": 130,
+        "subheading_align": "center",
+        "subheading_mt": 12,
+        "slider_mt": 60,
+        "slider_row": "6",
+        "slider_row_mobile": "1",
+        "slider_gap": 20,
+        "slider_gap_mobile": 32,
+        "autoplay": false,
+        "autoplay_speed": 3,
+        "nav_size": 40,
+        "nav_size_mobile": 30,
+        "hide_nav": true,
+        "hide_nav_mobile": false,
+        "image_radius": 0,
+        "top_color": "#e69e6c",
+        "heading_color": "#746661",
+        "subheading_color": "#aba49d",
+        "nav_btn_bg": "#FFFFFF",
+        "nav_btn_hover_bg": "#e69e6c",
+        "nav_border": "#e69e6c",
+        "nav_border_hover": "#e69e6c",
+        "nav_icon": "#e69e6c",
+        "nav_hover_icon": "#FFFFFF",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "map_DyXEGh": {
+      "type": "map",
+      "disabled": true,
+      "name": "Map",
+      "settings": {
+        "title": "Visit our store",
+        "address": "<p>Canberra, Australia</p>",
+        "hours": "<p>Mon - Fri, 10am - 9pm<br/>Saturday, 11am - 9pm<br/>Sunday, 11am - 5pm</p>",
+        "map_address": "Canberra, Australia",
+        "map_link_label": "Get directions",
+        "api_key": "",
+        "zoom": 14,
+        "map_style": "silver",
+        "image": "shopify://shop_images/0QmUMHCSScqx6fz-b1EN3A.webp"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "custom_html_K4zdAh",
+    "featured-collections",
+    "text_with_image_7pGEf8",
+    "featured_collections_CKeFTV",
+    "text_with_image_xTmMWt",
+    "text_with_image_GDg3MG",
+    "recently_viewed_products_VfhUhH",
+    "ss_instafeed_2_BbJTkd",
+    "map_DyXEGh"
+  ]
+}
