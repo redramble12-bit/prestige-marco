@@ -274,7 +274,7 @@
         "subheading_height": 130,
         "subheading_align": "center",
         "subheading_mt": 12,
-        "slider_mt": 28,
+        "slider_mt": 20,
         "slider_row": "3",
         "slider_row_mobile": "3",
         "slider_gap": 8,
@@ -305,7 +305,7 @@
         "padding_horizontal": 5,
         "padding_horizontal_mobile": 1.5,
         "full_width": true,
-        "content_width": 120,
+        "content_width": 400,
         "border_thickness": 0,
         "lazy": true
       }
