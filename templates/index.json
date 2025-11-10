@@ -191,6 +191,7 @@
     },
     "sp_custom_html_3mY7d4": {
       "type": "sp-custom-html",
+      "custom_css": [],
       "name": "🚀SP - Custom HTML",
       "settings": {
         "title": "",
