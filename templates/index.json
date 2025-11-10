@@ -98,7 +98,7 @@
       "settings": {
         "title": "",
         "layout_mode": "grid",
-        "show_product_info": true,
+        "show_product_info": false,
         "show_vendor": false,
         "show_color_swatch": false,
         "grid_mobile_items_per_row": "2",
@@ -191,6 +191,7 @@
     },
     "sp_custom_html_3mY7d4": {
       "type": "sp-custom-html",
+      "disabled": true,
       "custom_css": [],
       "name": "🚀SP - Custom HTML",
       "settings": {
@@ -200,10 +201,29 @@
     },
     "sp_custom_html_HmdPw6": {
       "type": "sp-custom-html",
+      "disabled": true,
       "name": "🚀SP - Custom HTML",
       "settings": {
         "title": "",
         "custom_html": ""
+      }
+    },
+    "sp_custom_html_NWBxjQ": {
+      "type": "sp-custom-html",
+      "disabled": true,
+      "name": "🚀SP - Custom HTML",
+      "settings": {
+        "title": "",
+        "custom_html": "<section id=\"shopify-section-template--24714836672838__multi_column_kTLxVH\" class=\"shopify-section shopify-section--multi-column\">\n  <style>\n    #shopify-section-template--24714836672838__multi_column_kTLxVH .multi-column {\n      display: flex;\n      overflow-x: auto;\n      gap: 1.5rem;\n      scroll-snap-type: x mandatory;\n      -webkit-overflow-scrolling: touch;\n      padding-bottom: 1rem;\n      scrollbar-width: none;       /* Firefox */\n      -ms-overflow-style: none;    /* IE 10+ */\n    }\n    #shopify-section-template--24714836672838__multi_column_kTLxVH .multi-column::-webkit-scrollbar {\n      display: none;               /* Safari and Chrome */\n    }\n    .multi-column_item {\n      flex: 0 0 auto;\n      scroll-snap-align: start;\n      width: 53vw;\n    }\n    @media screen and (max-width: 699px) {\n      .multi-column_item {\n        width: 80vw;\n      }\n    }\n    @media screen and (min-width: 700px) {\n      .multi-column_item {\n        width: 38vw;\n      }\n    }\n    @media screen and (min-width: 999px) {\n      .multi-column_item {\n        width: 20vw;\n      }\n    }\n    .multi-column_item img {\n      width: 100%;\n      height: auto;\n      display: block;\n    }\n  </style>\n\n  <div class=\"section-spacing color-scheme color-scheme--scheme-1 color-scheme--bg-19247a2159a2df860c61949669e299c4 bordered-section\">\n    <div class=\"container\">\n      <div class=\"section-stack\">\n        <div class=\"section-header justify-self-center text-center\">\n          <div class=\"prose\">\n            <h3>THE Luciénte STANDARD</h3>\n          </div>\n        </div>\n\n        <div class=\"multi-column scroll-area snap-x bleed md:unbleed\">\n          <div class=\"multi-column_item\">\n            <div class=\"overflow-hidden\">\n              <img src=\"//luciente-online.com/cdn/shop/files/ICONS_FOR_WEBSITE_17_85c1c533-df87-4058-9242-978718f83f25.png?v=1725951832\" alt=\"\">\n            </div>\n            <div class=\"prose text-start\">\n              <p class=\"h6\">ABOUT</p>\n              <p>Luciénte designs everyday essentials with a focus on craftsmanship, clean silhouettes, and premium natural materials...</p>\n              <p><a href=\"https://luciente-online.com/pages/about-us\" title=\"About Us\">Learn more</a></p>\n            </div>\n          </div>\n\n          <div class=\"multi-column_item\">\n            <div class=\"overflow-hidden\">\n              <img src=\"//luciente-online.com/cdn/shop/files/23_4fb761bb-a07d-49d1-88ee-8869119eb9f0_png.webp?v=1754256642\" alt=\"\">\n            </div>\n            <div class=\"prose text-start\">\n              <p class=\"h6\">CLOUDWOOL®</p>\n              <p>Cloudwool® combines ultrafine softness with lightweight warmth. Developed using carefully selected Australian wool fibers...</p>\n              <p><a href=\"https://luciente-online.com/pages/poshwool\" title=\"POSHWOOL\">Learn more</a></p>\n            </div>\n          </div>\n\n          <div class=\"multi-column_item\">\n            <div class=\"overflow-hidden\">\n              <img src=\"//luciente-online.com/cdn/shop/files/nnn.png?v=1754002037\" alt=\"\">\n            </div>\n            <div class=\"prose text-start\">\n              <p class=\"h6\">LINEN</p>\n              <p>Luciénte’s linen is woven from responsibly sourced European flax and selected for its lightness, breathability, and soft, textured feel...</p>\n              <p><a href=\"https://luciente-online.com/pages/natural-linen\" title=\"NATURAL LINEN\">Learn more</a></p>\n            </div>\n          </div>\n\n          <div class=\"multi-column_item\">\n            <div class=\"overflow-hidden\">\n              <img src=\"//luciente-online.com/cdn/shop/files/4_3067cddc-4d95-4111-9950-addcb8e212b4_png.webp?v=1749036718\" alt=\"\">\n            </div>\n            <div class=\"prose text-start\">\n              <p class=\"h6\">CASHMERE</p>\n              <p>In the remote desert region of Alxa, Inner Mongolia, a rare and exquisite treasure is found...</p>\n            </div>\n          </div>\n\n          <div class=\"multi-column_item\">\n            <div class=\"overflow-hidden\">\n              <img src=\"//luciente-online.com/cdn/shop/files/DECEWVEWE.png?v=1754256737\" alt=\"\">\n            </div>\n            <div class=\"prose text-start\">\n              <p class=\"h6\">SUEDE</p>\n              <p>The Luciénte Sheep Suede is soft, matte, and smooth to the touch...</p>\n              <p><a href=\"https://luciente-online.com/pages/velutti-suede\" title=\"VELUTTI SUEDE\">Learn more</a></p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>"
+      }
+    },
+    "custom_html_CB3hi7": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<section id=\"shopify-section-template--24714836672838__multi_column_kTLxVH\" class=\"shopify-section shopify-section--multi-column\">\n  <style>\n    #shopify-section-template--24714836672838__multi_column_kTLxVH .multi-column {\n      display: flex;\n      overflow-x: auto;\n      gap: 1.5rem;\n      scroll-snap-type: x mandatory;\n      -webkit-overflow-scrolling: touch;\n      padding-bottom: 1rem;\n      scrollbar-width: none;       /* Firefox */\n      -ms-overflow-style: none;    /* IE 10+ */\n    }\n    #shopify-section-template--24714836672838__multi_column_kTLxVH .multi-column::-webkit-scrollbar {\n      display: none;               /* Safari and Chrome */\n    }\n    .multi-column_item {\n      flex: 0 0 auto;\n      scroll-snap-align: start;\n      width: 53vw;\n    }\n    @media screen and (max-width: 699px) {\n      .multi-column_item {\n        width: 80vw;\n      }\n    }\n    @media screen and (min-width: 700px) {\n      .multi-column_item {\n        width: 38vw;\n      }\n    }\n    @media screen and (min-width: 999px) {\n      .multi-column_item {\n        width: 20vw;\n      }\n    }\n    .multi-column_item img {\n      width: 100%;\n      height: auto;\n      display: block;\n    }\n  </style>\n\n  <div class=\"section-spacing color-scheme color-scheme--scheme-1 color-scheme--bg-19247a2159a2df860c61949669e299c4 bordered-section\">\n    <div class=\"container\">\n      <div class=\"section-stack\">\n        <div class=\"section-header justify-self-center text-center\">\n          <div class=\"prose\">\n            <h3>THE Luciénte STANDARD</h3>\n          </div>\n        </div>\n\n        <div class=\"multi-column scroll-area snap-x bleed md:unbleed\">\n          <div class=\"multi-column_item\">\n            <div class=\"overflow-hidden\">\n              <img src=\"//luciente-online.com/cdn/shop/files/ICONS_FOR_WEBSITE_17_85c1c533-df87-4058-9242-978718f83f25.png?v=1725951832\" alt=\"\">\n            </div>\n            <div class=\"prose text-start\">\n              <p class=\"h6\">ABOUT</p>\n              <p>Luciénte designs everyday essentials with a focus on craftsmanship, clean silhouettes, and premium natural materials...</p>\n              <p><a href=\"https://luciente-online.com/pages/about-us\" title=\"About Us\">Learn more</a></p>\n            </div>\n          </div>\n\n          <div class=\"multi-column_item\">\n            <div class=\"overflow-hidden\">\n              <img src=\"//luciente-online.com/cdn/shop/files/23_4fb761bb-a07d-49d1-88ee-8869119eb9f0_png.webp?v=1754256642\" alt=\"\">\n            </div>\n            <div class=\"prose text-start\">\n              <p class=\"h6\">CLOUDWOOL®</p>\n              <p>Cloudwool® combines ultrafine softness with lightweight warmth. Developed using carefully selected Australian wool fibers...</p>\n              <p><a href=\"https://luciente-online.com/pages/poshwool\" title=\"POSHWOOL\">Learn more</a></p>\n            </div>\n          </div>\n\n          <div class=\"multi-column_item\">\n            <div class=\"overflow-hidden\">\n              <img src=\"//luciente-online.com/cdn/shop/files/nnn.png?v=1754002037\" alt=\"\">\n            </div>\n            <div class=\"prose text-start\">\n              <p class=\"h6\">LINEN</p>\n              <p>Luciénte’s linen is woven from responsibly sourced European flax and selected for its lightness, breathability, and soft, textured feel...</p>\n              <p><a href=\"https://luciente-online.com/pages/natural-linen\" title=\"NATURAL LINEN\">Learn more</a></p>\n            </div>\n          </div>\n\n          <div class=\"multi-column_item\">\n            <div class=\"overflow-hidden\">\n              <img src=\"//luciente-online.com/cdn/shop/files/4_3067cddc-4d95-4111-9950-addcb8e212b4_png.webp?v=1749036718\" alt=\"\">\n            </div>\n            <div class=\"prose text-start\">\n              <p class=\"h6\">CASHMERE</p>\n              <p>In the remote desert region of Alxa, Inner Mongolia, a rare and exquisite treasure is found...</p>\n            </div>\n          </div>\n\n          <div class=\"multi-column_item\">\n            <div class=\"overflow-hidden\">\n              <img src=\"//luciente-online.com/cdn/shop/files/DECEWVEWE.png?v=1754256737\" alt=\"\">\n            </div>\n            <div class=\"prose text-start\">\n              <p class=\"h6\">SUEDE</p>\n              <p>The Luciénte Sheep Suede is soft, matte, and smooth to the touch...</p>\n              <p><a href=\"https://luciente-online.com/pages/velutti-suede\" title=\"VELUTTI SUEDE\">Learn more</a></p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>"
       }
     },
     "blog_posts_JHaqjL": {
@@ -377,6 +397,8 @@
     "text_with_image_GDg3MG",
     "sp_custom_html_3mY7d4",
     "sp_custom_html_HmdPw6",
+    "sp_custom_html_NWBxjQ",
+    "custom_html_CB3hi7",
     "blog_posts_JHaqjL",
     "recently_viewed_products_VfhUhH",
     "ss_instafeed_2_BbJTkd",
