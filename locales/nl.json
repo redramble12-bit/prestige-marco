@@ -182,14 +182,111 @@
   },
   "customer": {
     "account": {
-      "title": "Mijn account"
+      "title": "Mijn account",
+      "welcome": "Welkom terug, {{first_name}} !",
+      "logout": "Uitloggen",
+      "back_to_account": "Terug naar account",
+      "no_orders_title": "Mijn bestellingen",
+      "no_orders_content": "Je hebt nog geen bestellingen geplaatst",
+      "no_addresses_title": "Geen adressen",
+      "no_addresses_content": "Er zijn momenteel geen adressen opgeslagen",
+      "default_address": "Primair adres",
+      "edit_addresses": "Adressen bewerken",
+      "manage_addresses": "Adressen beheren"
+    },
+    "login": {
+      "description": "Voer uw e-mailadres en wachtwoord in:",
+      "email": "E-mail",
+      "password": "Wachtwoord",
+      "forgot": "Wachtwoord vergeten?",
+      "register_label": "Heeft u nog geen account?",
+      "register_link": "Maak er een"
+    },
+    "orders": {
+      "order_number": "Volgorde",
+      "date": "Datum",
+      "payment_status": "Betalingsstatus",
+      "fulfillment_status": "Uitvoeringsstatus",
+      "total": "Totaal"
+    },
+    "order": {
+      "title": "Bestelling {{order_number}}",
+      "back_to_account": "Terug naar account",
+      "cancelled_at": "Bestelling geannuleerd op {{ date }}",
+      "placed_at": "Bestelling geplaatst op {{ date }}",
+      "fulfillment_html": "Je bestelling is verzonden. Volg de zending met nummer {{tracking_number}} of door hier te klikken: <a href=\"&lt;span%20class='notranslate'&gt;{{tracking_url}}&lt;/span&gt;\" class=\"Link Link--underlineNative\" target=\"_blank\">{{tracking_url}}</a>",
+      "line_fulfillment_html": "Uw product \" {{product_title}} \" is verzonden. Volg de zending met nummer {{tracking_number}} of door hier te klikken: <a href=\"&lt;span%20class='notranslate'&gt;{{tracking_url}}&lt;/span&gt;\" class=\"Link Link--underlineNative\" target=\"_blank\">{{tracking_url}}</a>",
+      "quantity": "Hoeveelheid",
+      "line_price": "Totaal",
+      "subtotal": "Subtotaal",
+      "discount": "Korting",
+      "shipping": "Verzending",
+      "tax": "Belasting",
+      "total": "Totaal",
+      "shipping_address": "Verzendadres",
+      "billing_address": "Factuuradres",
+      "no_shipping_address": "Voor deze bestelling is geen verzendadres vereist."
+    },
+    "activate_account": {
+      "title": "Account activeren",
+      "description": "Voer een wachtwoord in om uw account aan te maken:",
+      "password": "Wachtwoord",
+      "password_confirmation": "Bevestig wachtwoord",
+      "submit": "Activeren",
+      "decline": "Afwijzen"
+    },
+    "recover_password": {
+      "title": "Wachtwoord herstellen",
+      "description": "Voer uw e-mailadres in:",
+      "email": "E-mail",
+      "submit": "Herstellen",
+      "success": "Wij hebben u een e-mail gestuurd met instructies om uw wachtwoord opnieuw in te stellen.",
+      "login_label": "Weet u uw wachtwoord nog?",
+      "login_link": "Terug naar inloggen"
+    },
+    "reset_password": {
+      "title": "Wachtwoord opnieuw instellen",
+      "description": "Voer een nieuw wachtwoord in:",
+      "password": "Wachtwoord",
+      "password_confirmation": "Bevestig wachtwoord"
+    },
+    "addresses": {
+      "title": "Mijn adressen",
+      "empty": "Er zijn nog geen adressen opgeslagen",
+      "edit": "Bewerking",
+      "delete": "Verwijderen",
+      "add_address": "Een nieuw adres toevoegen",
+      "edit_address": "Een adres bewerken",
+      "form_subtitle": "Vul onderstaande gegevens in:",
+      "default_address_label": "Standaardadres",
+      "address_label": "Adres {{position}}",
+      "first_name": "Voornaam",
+      "last_name": "Achternaam",
+      "company": "Bedrijf",
+      "address1": "Adres 1",
+      "address2": "Adres 2",
+      "city": "Stad",
+      "country": "Land",
+      "province": "Provincie",
+      "zip": "Postcode",
+      "phone": "Telefoon",
+      "set_default": "Instellen als standaardadres"
+    },
+    "register": {
+      "description": "Vul onderstaande gegevens in:",
+      "first_name": "Voornaam",
+      "last_name": "Achternaam",
+      "email": "E-mail",
+      "password": "Wachtwoord",
+      "submit": "Maak mijn account aan"
     }
   },
   "cart": {
     "items": {
       "total": "Totaal",
       "set_quantity": "Hoeveelheid instellen op {{new_quantity}}",
-      "remove": "Verwijderen"
+      "remove": "Verwijderen",
+      "quantity": "Hoeveelheid"
     },
     "shipping_estimator": {
       "title": "Verzendkosten schatten",
@@ -200,6 +297,21 @@
       "one_result_title": "1 optie beschikbaar:",
       "more_results_title": "{{count}} opties beschikbaar:",
       "no_results_title": "Er kon geen verzending worden gevonden"
+    },
+    "general": {
+      "title": "Winkelwagen",
+      "empty": "Je winkelwagen is leeg",
+      "empty_button": "Koop onze producten",
+      "add_note": "Bestelnotitie toevoegen",
+      "edit_note": "Bewerk ordernotitie",
+      "save_note": "Redden",
+      "note_placeholder": "Hoe kunnen wij u helpen?",
+      "free_shipping": "U komt in aanmerking voor gratis verzending!",
+      "free_shipping_remaining_html": "Besteed {{remaining_amount}} meer en ontvang gratis verzending!",
+      "shipping_and_taxes_notice": "Verzendkosten en belastingen worden berekend bij het afrekenen",
+      "discount": "Korting",
+      "total": "Totaal",
+      "checkout": "Uitchecken"
     }
   },
   "product": {
