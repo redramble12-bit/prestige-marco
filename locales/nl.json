@@ -184,5 +184,137 @@
     "account": {
       "title": "Mijn account"
     }
+  },
+  "cart": {
+    "items": {
+      "total": "Totaal",
+      "set_quantity": "Hoeveelheid instellen op {{new_quantity}}",
+      "remove": "Verwijderen"
+    },
+    "shipping_estimator": {
+      "title": "Verzendkosten schatten",
+      "country": "Land",
+      "province": "Provincie",
+      "zip_code": "Postcode",
+      "estimate": "Schatting",
+      "one_result_title": "1 optie beschikbaar:",
+      "more_results_title": "{{count}} opties beschikbaar:",
+      "no_results_title": "Er kon geen verzending worden gevonden"
+    }
+  },
+  "product": {
+    "general": {
+      "view_in_space": "Bekijk in uw ruimte",
+      "include_taxes": "Inclusief belasting.",
+      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" class=\"link link--accented\">Verzendkosten worden berekend</a> bij het afrekenen.",
+      "reviews_count": {
+        "zero": "Geen beoordelingen",
+        "one": "{{ count }} recensie",
+        "other": "{{ count }} beoordelingen"
+      }
+    },
+    "labels": {
+      "sold_out": "Uitverkocht",
+      "on_sale": "Te koop"
+    },
+    "slideshow": {
+      "go_to_image": "Afbeelding {{i}} weergeven",
+      "close": "Sluiten (Esc)",
+      "previous": "Vorige (pijl naar links)",
+      "next": "Volgende (pijl naar rechts)",
+      "image_loading_error": "Deze afbeelding kon niet worden geladen. Probeer de pagina opnieuw te laden."
+    },
+    "form": {
+      "share": "Deel",
+      "price": "Prijs",
+      "quantity": "Hoeveelheid",
+      "from_price_html": "Vanaf {{min_price}}",
+      "select_model": "Selecteer dit model",
+      "size_chart": "Maattabel",
+      "inventory_quantity_count": {
+        "one": "{{count}} stuk op voorraad.",
+        "other": "{{count}} stuks op voorraad"
+      },
+      "low_inventory_quantity_count": {
+        "one": "Nog maar {{count}} stuks op voorraad!",
+        "other": "Nog maar {{count}} stuks op voorraad!"
+      },
+      "add_to_cart": "In winkelwagen",
+      "sold_out": "Uitverkocht",
+      "pre_order": "Vooraf bestellen",
+      "unavailable": "Niet beschikbaar",
+      "view_info": "Meer informatie",
+      "view_images": "Bekijk afbeeldingen"
+    },
+    "tabs": {
+      "reviews": "Beoordelingen"
+    }
+  },
+  "store_availability": {
+    "general": {
+      "view_store_info": "Bekijk winkelinformatie",
+      "check_other_stores": "Controleer de beschikbaarheid bij andere winkels",
+      "pick_up_available": "Afhalen mogelijk",
+      "pick_up_currently_unavailable": "Afhalen momenteel niet beschikbaar",
+      "pick_up_available_at_html": "Afhalen mogelijk bij <strong>{{ location_name }}</strong>",
+      "pick_up_unavailable_at_html": "Afhalen momenteel niet mogelijk bij <strong>{{ location_name }}</strong>"
+    }
+  },
+  "gift_card": {
+    "issued": {
+      "subtext": "Hier is uw cadeaubon!",
+      "illustration_alt": "Illustratie van een cadeaubon",
+      "disabled": "Uw cadeaubon is uitgeschakeld.",
+      "expired": "Uw cadeaubon is verlopen op {{ expiry }} .",
+      "expires_on": "Uw cadeaubon verloopt op {{ expiry }} .",
+      "redeem_html": "Gebruik deze code bij het afrekenen om uw cadeaubon te verzilveren, of {{print_link}} deze pagina.",
+      "shop_link": "Begin met winkelen",
+      "print": "afdrukken",
+      "initial_amount_html": "Bedrag: {{initial_amount}}",
+      "remaining_balance_html": "Resterend saldo: {{balance}}",
+      "add_to_apple_wallet": "Toevoegen aan Apple Wallet"
+    }
+  },
+  "blog": {
+    "general": {
+      "no_articles": "Blog {{blog_title}} is leeg",
+      "empty_button": "Terug naar de homepage",
+      "all_tag": "Alle"
+    },
+    "article": {
+      "read_more": "Lees verder",
+      "written_by": "Geschreven door {{author}}",
+      "now_reading": "Nu aan het lezen:",
+      "share": "Deel",
+      "previous": "Vorige",
+      "next": "Volgende",
+      "comments_count": {
+        "zero": "{{count}} reacties",
+        "one": "{{count}} commentaar",
+        "other": "{{count}} reacties"
+      }
+    },
+    "comments": {
+      "form_title": "Laat een reactie achter",
+      "name_placeholder": "Naam",
+      "email_placeholder": "E-mail",
+      "comment_placeholder": "Inhoud",
+      "approval_notice": "Alle reacties worden gemodereerd voordat ze worden gepubliceerd",
+      "submit": "Plaats een reactie",
+      "success": "Uw reactie is gepubliceerd.",
+      "success_moderated": "Je reactie is verzonden. Deze is zichtbaar zodra de winkeleigenaar deze heeft geaccepteerd!"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Jouw naam",
+      "email": "Uw e-mailadres",
+      "message": "Uw bericht",
+      "submit": "Bericht verzenden",
+      "successfully_sent": "Uw bericht is succesvol verzonden."
+    }
+  },
+  "date_formats": {
+    "month_day_year_time": "%B %d, %Y op %I:%M%p"
   }
 }
