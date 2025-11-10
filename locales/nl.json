@@ -1,0 +1,188 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "customer_accounts": {
+    "payment_methods": {
+      "pay_pal": {
+        "errors": {
+          "generic": "Er is een probleem met PayPal. Probeer het opnieuw of gebruik een andere betaalmethode."
+        }
+      }
+    }
+  },
+  "general": {
+    "meta": {
+      "tags": "Gelabeld met \" {{ tags }} \"",
+      "page": "Pagina {{ page }}"
+    },
+    "breadcrumb": {
+      "home": "Thuis"
+    },
+    "accessibility": {
+      "scroll_to_content": "Scroll naar inhoud",
+      "previous": "Vorig",
+      "next": "Volgende",
+      "star_reviews_info": "{{ rating_value }} van de {{ rating_max }} sterren"
+    },
+    "announcement_bar": {
+      "close": "Dichtbij"
+    },
+    "popup": {
+      "close": "Dichtbij",
+      "email_placeholder": "Voer uw e-mailadres in",
+      "submit": "Abonneren",
+      "success": "U bent geabonneerd op onze nieuwsbrief."
+    },
+    "password": {
+      "enter_password": "Voer wachtwoord in",
+      "password_input": "Uw wachtwoord",
+      "password_submit": "Binnenkomen",
+      "newsletter_input": "Uw e-mailadres",
+      "newsletter_submit": "Breng mij op de hoogte",
+      "newsletter_success": "Bedankt voor uw aanmelding!",
+      "powered_by_html": "Deze winkel wordt aangestuurd door {{shopify_link}}",
+      "login_title": "Bent u de winkeleigenaar?",
+      "login_link": "Meld je hier aan"
+    },
+    "pagination": {
+      "previous_page": "Vorige pagina",
+      "next_page": "Volgende pagina",
+      "go_to_page": "Navigeer naar pagina {{page}}"
+    }
+  },
+  "header": {
+    "general": {
+      "locale": "Taal",
+      "country": "Land/regio"
+    },
+    "navigation": {
+      "title": "Hoofdnavigatie",
+      "sidebar_title": "Zijbalknavigatie",
+      "open_sidebar": "Open navigatie",
+      "close_sidebar": "Navigatie sluiten",
+      "account": "Rekening",
+      "search": "Zoekopdracht",
+      "close_search": "Zoeken sluiten",
+      "cart": "Winkelwagen",
+      "open_cart": "Winkelwagen openen",
+      "close_cart": "Winkelwagen sluiten",
+      "skip_to_content": "Ga naar inhoud",
+      "currency_selector": "Valutaselector"
+    }
+  },
+  "footer": {
+    "general": {
+      "locale": "Taal",
+      "country": "Land/regio"
+    },
+    "newsletter": {
+      "success": "U bent geabonneerd op onze nieuwsbrief.",
+      "input": "Voer uw e-mailadres in",
+      "submit": "Abonneren"
+    }
+  },
+  "search": {
+    "general": {
+      "title": "Zoekopdracht",
+      "content": "Voer een woord in om naar onze producten te zoeken:",
+      "input_placeholder": "Zoekopdracht...",
+      "view_all": "Bekijk alles",
+      "no_results": "Er konden geen resultaten worden gevonden",
+      "no_results_with_terms": "Er konden geen resultaten worden gevonden voor {{terms}}",
+      "pages": "Pagina's",
+      "articles": "Tijdschrift",
+      "pages_and_articles": "Pagina's &amp; Journaal",
+      "results_count": {
+        "zero": "Producten",
+        "one": "1 resultaat",
+        "other": "{{count}} resultaten"
+      },
+      "results_with_terms_count": {
+        "zero": "0 resultaten voor \" {{terms}} \"",
+        "one": "1 resultaat voor \" {{terms}} \"",
+        "other": "{{count}} resultaten voor \" {{terms}} \""
+      }
+    }
+  },
+  "404": {
+    "general": {
+      "content": "De pagina die u zoekt, kan niet gevonden worden.",
+      "button": "Terug naar de homepage"
+    }
+  },
+  "home_page": {
+    "onboarding": {
+      "vendor_title": "Merknaam",
+      "product_title": "Productnaam",
+      "product_description": "Een productbeschrijving kan worden gebruikt om de kenmerken en voordelen van je product te benadrukken. Bekijk de e-commerceblog van Shopify voor inspiratie en advies over hoe je je producten op de juiste manier kunt marketen.",
+      "collection_title": "Naam van de collectie",
+      "article_name": "Naam van het bericht",
+      "article_category": "Categorie",
+      "article_excerpt": "Je winkel heeft nog geen blogposts gepubliceerd. Een blog kan worden gebruikt om te praten over nieuwe productlanceringen, tips of ander nieuws dat je met je klanten wilt delen. Bekijk de e-commerceblog van Shopify voor inspiratie en advies voor je eigen winkel en blog."
+    },
+    "featured_product": {
+      "view_product": "Bekijk productdetails"
+    },
+    "shop_the_look": {
+      "view_product": "Bekijk dit product",
+      "view_products": "Bekijk producten",
+      "popover_title": "Shop de look"
+    },
+    "featured_video": {
+      "play": "Video afspelen"
+    },
+    "newsletter": {
+      "input": "Voer uw e-mailadres in",
+      "submit": "Abonneren",
+      "success": "U bent geabonneerd op onze nieuwsbrief."
+    }
+  },
+  "collection_list": {
+    "general": {
+      "title": "Alle collecties",
+      "empty_title": "Geen collecties",
+      "empty_button": "Terug naar de homepage"
+    }
+  },
+  "collection": {
+    "general": {
+      "all_products": "Alle producten",
+      "no_products": "Geen producten",
+      "empty": "Collectie {{collection_title}} is leeg",
+      "empty_button": "Terug naar de homepage",
+      "reset": "Filters resetten",
+      "view_products": "Bekijk producten"
+    },
+    "filter": {
+      "price_filter_from": "Van",
+      "price_filter_to": "Naar",
+      "show_filter": "Filters weergeven",
+      "apply": "Bekijk resultaten"
+    },
+    "sorting": {
+      "title": "Soort",
+      "show_sort": "Sorteren op weergeven"
+    },
+    "layout": {
+      "show_one_per_row": "Toon één product per rij",
+      "show_two_per_row": "Toon twee producten per rij",
+      "show_four_per_row": "Toon vier producten per rij"
+    },
+    "product": {
+      "from_price_html": "Vanaf {{min_price}}",
+      "view_product": "Bekijk product"
+    }
+  },
+  "customer": {
+    "account": {
+      "title": "Mijn account"
+    }
+  }
+}
