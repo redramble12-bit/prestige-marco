@@ -189,6 +189,14 @@
         "link_url": ""
       }
     },
+    "sp_custom_html_HmdPw6": {
+      "type": "sp-custom-html",
+      "name": "🚀SP - Custom HTML",
+      "settings": {
+        "title": "",
+        "custom_html": ""
+      }
+    },
     "recently_viewed_products_VfhUhH": {
       "type": "recently-viewed-products",
       "name": "Recently viewed products",
@@ -268,7 +276,7 @@
         "heading_height": 120,
         "heading_align": "center",
         "heading_mt": 12,
-        "subheading": "<h3>TAG US TO GET FEATURED</h3>",
+        "subheading": "<h3><strong>TAG US TO GET FEATURED</strong></h3>",
         "subheading_custom": false,
         "subheading_font": "serif",
         "subheading_size": 16,
@@ -336,6 +344,7 @@
     "featured_collections_CKeFTV",
     "text_with_image_xTmMWt",
     "text_with_image_GDg3MG",
+    "sp_custom_html_HmdPw6",
     "recently_viewed_products_VfhUhH",
     "ss_instafeed_2_BbJTkd",
     "map_DyXEGh"
